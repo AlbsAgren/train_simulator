@@ -1,0 +1,3 @@
+# Train Simulator
+
+The goal of this project was to build an event driven simulation of a railway system. The simulation covers the trains departing during a single day and the starting conditions can be found /resources. The trains are the central entity of the simulation and assembled from the pool of vehicles available at its origin station but if no appropriate vehicles are available the train may be delayd. The trains then depart towards their destination, adapting their speed if they're late in order to try and arrive as scheduled. Trains arriving at their destination are disassembled and their constituent vehicles may be attached to another train.
